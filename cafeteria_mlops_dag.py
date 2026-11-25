@@ -4,7 +4,7 @@ import subprocess
 
 from airflow.sdk import dag, task
 
-BASE_DIR = Path("/home/sharlin_tania/cafeteria-mlops")
+BASE_DIR = Path("your_path")
 PYTHON = BASE_DIR / ".venv" / "bin" / "python"
 
 
